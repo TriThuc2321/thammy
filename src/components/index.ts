@@ -10,3 +10,4 @@ export const HeroSection = dynamic(() => import("./HeroSection"));
 export const ProductsSection = dynamic(() => import("./ProductsSection"));
 export const ServiceSection = dynamic(() => import("./ServiceSection"));
 export const AboutSection = dynamic(() => import("./AboutSection"));
+export const RandomBooking = dynamic(() => import("./RandomBooking"));
