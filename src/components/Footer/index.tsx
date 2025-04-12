@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <h3>Phong Thủy Ngọc San</h3>
+            <h3>Chân Mày Sương Mai</h3>
             <p>Giải pháp phong thủy chuyên nghiệp</p>
           </div>
           <div className="footer-links">
@@ -45,7 +45,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="copyright">
-          <p>&copy; 2025 Phong Thủy Ngọc San. Tất cả quyền được bảo lưu.</p>
+          <p>&copy; 2025 Chân Mày Sương Mai. Tất cả quyền được bảo lưu.</p>
         </div>
       </div>
     </footer>

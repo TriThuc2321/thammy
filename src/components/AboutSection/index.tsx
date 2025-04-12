@@ -10,7 +10,7 @@ export default function AboutSection() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Phong Thủy Ngọc San là đơn vị chuyên cung cấp các dịch vụ và sản
+              Chân Mày Sương Mai là đơn vị chuyên cung cấp các dịch vụ và sản
               phẩm phong thủy chất lượng cao, mang đến sự cân bằng và thịnh
               vượng cho không gian sống và làm việc của bạn.
             </p>

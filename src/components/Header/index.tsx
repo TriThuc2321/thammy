@@ -5,7 +5,7 @@ export default function Header() {
     <header>
       <div className="container">
         <div className="logo">
-          <h1>Phong Thủy Ngọc San</h1>
+          <h1>Chân Mày Sương Mai</h1>
         </div>
         <nav>
           <ul>
