@@ -1,5 +1,6 @@
 import {
   AboutSection,
+  ContactModal,
   ContactSection,
   HeroSection,
   ProductsSection,
@@ -18,6 +19,7 @@ export default function Home() {
       <TestimonialsSection />
       <ContactSection />
       <RandomBooking />
+      <ContactModal />
     </>
   );
 }

@@ -5,6 +5,8 @@ import "./styles.css";
 export default function HeroSection() {
   return (
     <section className="hero" id="home">
+      <Image src={banner} style={{ objectFit: "cover" }} fill alt="" />
+
       <div className="container">
         <div className="hero-wrapper">
           <div className="hero-content">
@@ -17,9 +19,6 @@ export default function HeroSection() {
               Liên Hệ Ngay
             </a>
           </div>
-        </div>
-        <div className="relative">
-          <Image src={banner} style={{ objectFit: "cover" }} fill alt="" />
         </div>
       </div>
     </section>

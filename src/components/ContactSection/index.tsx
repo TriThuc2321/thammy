@@ -1,3 +1,4 @@
+import ContactForm from "../ContactForm";
 import "./styles.css";
 
 export default function ContactSection() {
@@ -29,34 +30,7 @@ export default function ContactSection() {
               </div>
             </div>
           </div>
-          <div className="contact-form">
-            <form action="#" method="POST">
-              <div className="form-group">
-                <label htmlFor="name">Họ và Tên</label>
-                <input type="text" id="name" name="name" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email" name="email" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="phone">Số Điện Thoại</label>
-                <input type="tel" id="phone" name="phone" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Tin Nhắn</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={5}
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" className="btn">
-                Gửi Tin Nhắn
-              </button>
-            </form>
-          </div>
+          <ContactForm />
         </div>
       </div>
     </section>
