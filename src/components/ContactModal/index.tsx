@@ -17,7 +17,7 @@ const ContactModal = () => {
     <div className="z-50 fixed inset-0 pt-32 flex items-center justify-center bg-black/60">
       <div
         ref={modalRef}
-        className="bg-white relative p-6 rounded-lg shadow-lg w-full max-w-sm"
+        className="bg-white relative p-6 rounded-lg shadow-lg w-full lg:max-w-xl max-w-sm"
       >
         <h3 className="text-3xl text-center font-bold mb-4 text-red-800">
           Nhận ngay ưu đãi

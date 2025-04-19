@@ -41,3 +41,26 @@
 .form-group textarea {
   resize: vertical;
 }
+
+.status-message {
+  margin: 1rem 0;
+  padding: 0.75rem;
+  border-radius: 4px;
+}
+
+.status-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.status-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
