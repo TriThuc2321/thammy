@@ -34,7 +34,7 @@ function RandomBooking() {
     }
   }, [isOpen]);
   return isOpen ? (
-    <div className="fixed bottom-8 right-8 bg-white p-2 rounded-lg">
+    <div className="shadow-lg border border-gray-200 fixed bottom-3 right-3 lg:bottom-8 lg:right-8 bg-white p-2 rounded-lg">
       <div className="flex gap-2">
         <Image
           src={currentBooking.avatar}
