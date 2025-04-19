@@ -7,7 +7,10 @@ export default function Footer() {
         <div className="footer-content">
           <div className="footer-logo">
             <h3>Chân Mày Sương Mai</h3>
-            <p>Giải pháp phong thủy chuyên nghiệp</p>
+            <p>
+              Mỗi nét chạm đều mang theo sự tinh tế và định hình nên một phiên
+              bản đẹp hơn
+            </p>
           </div>
           <div className="footer-links">
             <h4>Liên Kết Nhanh</h4>

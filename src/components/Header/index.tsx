@@ -1,11 +1,14 @@
 import "./styles.css";
+import logo from "@/assets/images/logo.png";
+import Image from "next/image";
 
 export default function Header() {
   return (
     <header>
       <div className="container">
-        <div className="logo">
-          <h1>Chân Mày Sương Mai</h1>
+        <div className="flex items-center gap-2">
+          <Image src={logo} width={40} height={40} alt="logo" />
+          <h1 className="text-2xl font-bold">Chân Mày Sương Mai</h1>
         </div>
         <nav>
           <ul>

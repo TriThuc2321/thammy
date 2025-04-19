@@ -1,5 +1,5 @@
 import Image from "next/image";
-import banner from "@/assets/images/banner.webp";
+import about from "@/assets/images/about.png";
 import "./styles.css";
 
 export default function AboutSection() {
@@ -10,18 +10,23 @@ export default function AboutSection() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Chân Mày Sương Mai là đơn vị chuyên cung cấp các dịch vụ và sản
-              phẩm phong thủy chất lượng cao, mang đến sự cân bằng và thịnh
-              vượng cho không gian sống và làm việc của bạn.
-            </p>
-            <p>
-              Với nhiều năm kinh nghiệm trong lĩnh vực phong thủy, chúng tôi tự
-              hào mang đến những giải pháp phong thủy hiệu quả, phù hợp với nhu
-              cầu của từng khách hàng.
+              Toạ lạc tại trung tâm Quận Ninh Kiều, TP Cần Thơ, chúng tôi tin
+              rằng mỗi đường nét trên gương mặt không chỉ phản ánh cá tính, mà
+              còn là chiếc “bản đồ năng lượng” riêng biệt của từng người. Lấy
+              cảm hứng từ nhân tướng học hiện đại và tinh hoa thẩm mỹ phương
+              Đông, các dịch vụ tại đây được thiết kế để tái cân bằng diện mạo,
+              nâng tầm thần thái và giúp bạn tỏa sáng một cách tự nhiên, đầy
+              cuốn hút.
             </p>
           </div>
-          <div className="about-image">
-            <Image src={banner} style={{ objectFit: "cover" }} fill alt="" />
+          <div className="w-full h-[620px] relative">
+            <Image
+              src={about}
+              sizes="100vw"
+              style={{ objectFit: "cover" }}
+              fill
+              alt=""
+            />
           </div>
         </div>
       </div>

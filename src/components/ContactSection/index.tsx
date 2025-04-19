@@ -12,7 +12,7 @@ export default function ContactSection() {
               <div className="contact-icon">📍</div>
               <div>
                 <h3>Địa Chỉ</h3>
-                <p>123 Đường ABC, Quận XYZ, TP. Hồ Chí Minh</p>
+                <p>Địa chỉ 156B đường Mậu Thân, An Phú, Ninh Kiều, Cần Thơ</p>
               </div>
             </div>
             <div className="contact-item">

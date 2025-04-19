@@ -1,31 +1,33 @@
 import Image from "next/image";
-import banner from "@/assets/images/banner.webp";
+import chanmay from "@/assets/images/chanmay.jpg";
+import chanmaynam from "@/assets/images/chanmaynam.jpg";
+import moi from "@/assets/images/moi.jpg";
+import notruoi from "@/assets/images/notruoi.jpg";
 import "./styles.css";
 
 const products = [
   {
-    image: banner,
-    title: "Tỳ Hưu Phong Thủy",
-    description: "Vật phẩm thu hút tài lộc và bảo vệ gia chủ",
-    price: "1,200,000₫",
+    image: chanmay,
+    title: "Chân mày Sương Mai",
+    description:
+      "Dáng mày mềm mại, thanh tú, tôn lên nét quý phái và sự tự tin nội lực.",
   },
   {
-    image: banner,
-    title: "Cây Thủy Sinh Phong Thủy",
-    description: "Tăng cường năng lượng tích cực trong nhà",
-    price: "800,000₫",
+    image: moi,
+    title: "Phun môi cân bằng năng lượng",
+    description: "Cải thiện sắc khí, tạo sự hài hòa giữa gương mặt và biểu cảm",
   },
   {
-    image: banner,
-    title: "Tranh Phong Thủy",
-    description: "Mang đến may mắn và thành công cho gia chủ",
-    price: "1,500,000₫",
+    image: notruoi,
+    title: "Điểm nốt ruồi tinh tế",
+    description:
+      "Theo xu hướng nhân tướng học hiện đại, tăng điểm nhấn và tạo điểm thu hút tự nhiên",
   },
   {
-    image: banner,
-    title: "Đá Phong Thủy",
-    description: "Cân bằng năng lượng và mang lại sự bình an",
-    price: "650,000₫",
+    image: chanmaynam,
+    title: "Chân mày Sương Mai",
+    description:
+      "Dáng mày mềm mại, thanh tú, tôn lên nét quý phái và sự tự tin nội lực.",
   },
 ];
 
@@ -35,15 +37,18 @@ export default function ProductsSection() {
       <div className="container">
         <h2 className="section-title">Sản Phẩm Phong Thủy</h2>
         <div className="product-grid">
-          {products.map(({ image, title, description, price }) => (
+          {products.map(({ image, title, description }) => (
             <div className="product-card" key={title}>
               <div className="product-image">
-                <Image src={image} alt="" />
+                <Image
+                  className="w-full h-full object-cover"
+                  src={image}
+                  alt=""
+                />
               </div>
               <h3>{title}</h3>
               <p>{description}</p>
-              <div className="product-price">{price}</div>
-              <a href="#" className="btn-small">
+              <a href="#contact" className="btn-small">
                 Chi Tiết
               </a>
             </div>
