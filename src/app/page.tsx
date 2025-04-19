@@ -18,8 +18,8 @@ export default function Home() {
       <ProductsSection />
       <TestimonialsSection />
       <ContactSection />
-      <RandomBooking />
       <ContactModal />
+      <RandomBooking />
     </>
   );
 }

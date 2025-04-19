@@ -2,28 +2,24 @@ import "./styles.css";
 
 const services = [
   {
-    icon: "🏠",
-    title: "Tư Vấn Phong Thủy Nhà Ở",
+    title: "Chân Mày Trăng Non",
     description:
-      "Phân tích và tư vấn phong thủy cho nhà ở, giúp mang lại sự cân bằng và thịnh vượng.",
+      "Dịch vụ này kết hợp kỹ thuật phun mày tinh tế với nguyên lý nhân tướng học, giúp xác định dáng mày phù hợp với bản mệnh và năng lượng cá nhân, từ đó hỗ trợ tạo sự thịnh vượng và cân bằng cuộc sống, bạn sẽ có được vẻ đẹp nhẹ nhàng, sắc sảo và một thần thái tựa như ánh sáng trăng – hài hòa tôn lên khí sắc tự nhiên.",
   },
   {
-    icon: "🏢",
-    title: "Phong Thủy Văn Phòng",
+    title: "Chân Mày Minh Tướng",
     description:
-      "Thiết kế và bố trí không gian làm việc hài hòa, tăng cường năng suất và thành công.",
+      "Tạo hình dáng mày chuẩn xác, sắc nét theo cấu trúc gương mặt và khí sắc riêng từng người. Kết hợp kỹ thuật thẩm mỹ với nguyên tắc nhân tướng học hiện đại, giúp tôn lên thần thái sáng rõ, phong độ và bản lĩnh tự nhiên của phái mạnh.",
   },
   {
-    icon: "📜",
-    title: "Xem Ngày Tốt",
+    title: "Phun Môi Cân Bằng Năng Lượng",
     description:
-      "Tư vấn chọn ngày tốt cho các sự kiện quan trọng trong cuộc sống và công việc.",
+      "Chọn màu môi và dáng môi theo sắc diện và ngũ hành cá nhân, giúp cân bằng năng lượng khuôn mặt. Đôi môi không chỉ rạng rỡ mà còn truyền tải cảm xúc tích cực, làm bừng sáng thần sắc một cách tự nhiên.",
   },
   {
-    icon: "🧿",
-    title: "Vật Phẩm Phong Thủy",
+    title: "Nốt Ruồi Nhân Tướng",
     description:
-      "Cung cấp các vật phẩm phong thủy chất lượng cao để cải thiện năng lượng.",
+      "Đặt điểm nhấn tinh tế theo vị trí được tư vấn bởi nhân tướng học hiện đại. Mỗi nốt ruồi không chỉ là nét riêng, mà còn là “dấu ấn năng lượng” giúp khuôn mặt trở nên thu hút và hài hòa hơn với khí chất thật sự bên trong.",
   },
 ];
 export default function ServiceSection() {
@@ -32,11 +28,10 @@ export default function ServiceSection() {
       <div className="container">
         <h2 className="section-title">Dịch Vụ</h2>
         <div className="service-grid">
-          {services.map(({ icon, title, description }) => (
+          {services.map(({ title, description }) => (
             <div className="service-card" key={title}>
-              <div className="service-icon">{icon}</div>
               <h3>{title}</h3>
-              <p>{description}</p>
+              <p className="text-justify">{description}</p>
             </div>
           ))}
         </div>

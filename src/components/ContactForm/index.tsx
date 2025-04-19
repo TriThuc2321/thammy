@@ -17,7 +17,7 @@ export default function ContactForm() {
         </div>
         <div className="form-group">
           <label htmlFor="message">Tin Nhắn</label>
-          <textarea id="message" name="message" rows={5} required></textarea>
+          <textarea id="message" name="message" rows={3} required></textarea>
         </div>
         <button type="submit" className="btn">
           Gửi Tin Nhắn

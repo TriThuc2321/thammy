@@ -25,9 +25,9 @@ const products = [
   },
   {
     image: chanmaynam,
-    title: "Chân mày Sương Mai",
+    title: "Chân mày Minh Tướng",
     description:
-      "Dáng mày mềm mại, thanh tú, tôn lên nét quý phái và sự tự tin nội lực.",
+      "Đặt điểm nhấn tinh tế theo vị trí được tư vấn bởi nhân tướng học hiện đại.",
   },
 ];
 
