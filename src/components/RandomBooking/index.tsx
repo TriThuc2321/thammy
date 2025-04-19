@@ -13,7 +13,7 @@ function RandomBooking() {
   useEffect(() => {
     const timer = setInterval(() => {
       setIsOpen(true);
-    }, 7000);
+    }, 15000);
 
     return () => clearInterval(timer);
   }, []);

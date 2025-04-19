@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://i.imgur.com/Z7NzQwU.png",
-        width: 1200,
-        height: 1200,
+        width: 600,
+        height: 600,
       },
     ],
   },
