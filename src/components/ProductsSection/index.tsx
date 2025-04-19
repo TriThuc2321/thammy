@@ -1,8 +1,8 @@
 import Image from "next/image";
-import chanmay from "@/assets/images/chanmay.jpg";
-import chanmaynam from "@/assets/images/chanmaynam.jpg";
-import moi from "@/assets/images/moi.jpg";
-import notruoi from "@/assets/images/notruoi.jpg";
+import chanmay from "@/assets/images/chanmay.webp";
+import chanmaynam from "@/assets/images/chanmaynam.webp";
+import moi from "@/assets/images/moi.webp";
+import notruoi from "@/assets/images/notruoi.webp";
 import "./styles.css";
 
 const products = [

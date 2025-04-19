@@ -1,16 +1,18 @@
 import Image from "next/image";
-import banner from "@/assets/images/banner.png";
+import banner from "@/assets/images/banner.webp";
 import "./styles.css";
 
 export default function HeroSection() {
   return (
     <section className="hero" id="home">
       <Image
+        priority
+        loading="eager"
         src={banner}
         className="lg:object-contain object-cover"
         fill
         sizes="100vw"
-        alt=""
+        alt="Banner"
       />
 
       <div className="container">

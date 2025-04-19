@@ -1,5 +1,5 @@
 import Image from "next/image";
-import about from "@/assets/images/about.png";
+import about from "@/assets/images/about.webp";
 import "./styles.css";
 
 export default function AboutSection() {
