@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme inline {
+  --font-ghelisyah: var(--font-ghelisyah);
+  --font-hictDesignors: var(--font-hictDesignors);
+}
+
 @layer base {
   *,
   *::before,
