@@ -19,7 +19,10 @@ const ContactModal = () => {
         ref={modalRef}
         className="bg-white relative p-6 rounded-lg shadow-lg w-full lg:max-w-xl max-w-sm"
       >
-        <h3 className="text-3xl text-center font-bold mb-4 text-red-800">
+        <p className="font-waterBrush mx-auto text-3xl text-center text-[#453a15] font-medium">
+          Chân Mày Sương Mai
+        </p>
+        <h3 className="text-4xl font-cardo text-center font-bold mb-4 text-[#721c24]">
           Nhận ngay ưu đãi
         </h3>
 
