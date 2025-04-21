@@ -32,7 +32,7 @@ export default function ContactForm() {
         },
         body: JSON.stringify(formValues),
       });
-
+      console.info(JSON.stringify(formValues));
       const data = await response.json();
       if (response.ok) {
         setSubmitStatus({

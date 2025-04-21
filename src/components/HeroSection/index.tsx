@@ -18,7 +18,7 @@ export default function HeroSection() {
       <div className="container">
         <div className="hero-wrapper">
           <div className="hero-content">
-            <h2>Chào Mừng Đến Với Chân Mày Sương Mai</h2>
+            <h2>Chân mày vượng khí – Tướng diện thăng hoa</h2>
             <p>
               Chân mày ẩn ngọc rồng bay <br></br>
               Dáng mày vượng khí, phúc dày đời sang <br></br>
