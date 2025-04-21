@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Water_Brush, Cardo } from "next/font/google";
 import "./globals.css";
 import { Footer, Header } from "@/components";
 import localFont from "next/font/local";
@@ -14,16 +14,24 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const ghelisyahFont = localFont({
-  src: "./fonts/DFVN-Ghelisyah.otf",
-  display: "swap",
-  variable: "--font-ghelisyah",
-});
-
 const hictDesignorsFont = localFont({
   src: "./fonts/hictDesignors.ttf",
   display: "swap",
   variable: "--font-hictDesignors",
+});
+
+const waterBrushFont = Water_Brush({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-waterBrush",
+});
+
+const cardoFont = Cardo({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-cardo",
 });
 
 export const metadata: Metadata = {
@@ -52,7 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${ghelisyahFont.variable} ${hictDesignorsFont.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${waterBrushFont.variable} ${hictDesignorsFont.variable} ${cardoFont.variable} antialiased`}
       >
         <Header />
         {children}

@@ -35,6 +35,9 @@ export default function ProductsSection() {
   return (
     <section className="products" id="products">
       <div className="container">
+        <p className="font-waterBrush mx-auto text-3xl text-center text-[#453a15] font-medium">
+          Chân Mày Sương Mai
+        </p>
         <h2 className="section-title">Sản Phẩm Phong Thủy</h2>
         <div className="product-grid">
           {products.map(({ image, title, description }) => (
@@ -46,7 +49,7 @@ export default function ProductsSection() {
                   alt=""
                 />
               </div>
-              <h3>{title}</h3>
+              <h3 className="font-cardo">{title}</h3>
               <p>{description}</p>
               <a href="#contact" className="btn-small">
                 Chi Tiết

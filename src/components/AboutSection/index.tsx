@@ -6,7 +6,10 @@ export default function AboutSection() {
   return (
     <section className="about" id="about">
       <div className="container">
-        <h2 className="section-title">Giới Thiệu</h2>
+        <p className="font-waterBrush mx-auto text-3xl text-center text-[#453a15] font-medium">
+          Chân Mày Sương Mai
+        </p>
+        <h2 className="section-title">Giới Thiệu Về Chúng Tôi</h2>
         <div className="about-content">
           <div className="about-text">
             <p>

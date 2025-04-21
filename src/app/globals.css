@@ -3,6 +3,8 @@
 @theme inline {
   --font-ghelisyah: var(--font-ghelisyah);
   --font-hictDesignors: var(--font-hictDesignors);
+  --font-waterBrush: var(--font-waterBrush);
+  --font-cardo: var(--font-cardo);
 }
 
 @layer base {
@@ -62,6 +64,7 @@ ul {
   color: #8b4513;
   position: relative;
   padding-bottom: 15px;
+  font-family: var(--font-cardo);
 }
 
 .section-title::after {

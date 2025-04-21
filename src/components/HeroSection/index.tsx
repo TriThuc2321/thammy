@@ -18,14 +18,16 @@ export default function HeroSection() {
       <div className="container">
         <div className="hero-wrapper">
           <div className="hero-content">
-            <h2>Chân mày vượng khí – Tướng diện thăng hoa</h2>
+            <h2 className="font-cardo">
+              Chân mày vượng khí – Tướng diện thăng hoa
+            </h2>
             <p>
               Chân mày ẩn ngọc rồng bay <br></br>
               Dáng mày vượng khí, phúc dày đời sang <br></br>
               Sương Mai đo vẽ chuẩn vàng <br></br>
               Tướng dung rạng rỡ – huy hoàng tiền duyên.
             </p>
-            <a href="#contact" className="btn">
+            <a href="#contact" className="btn font-cardo font-bold text-white">
               Liên Hệ Ngay
             </a>
           </div>

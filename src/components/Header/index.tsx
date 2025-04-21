@@ -6,15 +6,15 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header>
-      <div className="container">
+      <div className="container text-[#453a15]">
         <div className="flex items-center gap-2">
           <Image src={logo} width={40} height={40} alt="logo" />
-          <h1 className="text-2xl font-bold font-hictDesignors">
+          <h1 className="text-2xl font-bold font-waterBrush">
             Chân Mày Sương Mai
           </h1>
         </div>
         <nav>
-          <ul className="font-hictDesignors">
+          <ul className="font-cardo">
             <li>
               <Link className="text-xl" href="#home">
                 Trang Chủ

@@ -5,7 +5,11 @@ export default function ContactSection() {
   return (
     <section className="contact" id="contact">
       <div className="container">
-        <h2 className="section-title">Liên Hệ</h2>
+        <p className="font-waterBrush mx-auto text-3xl text-center text-[#453a15] font-medium">
+          Chân Mày Sương Mai
+        </p>
+
+        <h2 className="section-title">Liên Hệ Ngay Các Dịch Vụ</h2>
         <div className="contact-content">
           <div className="contact-info">
             <div className="contact-item">
