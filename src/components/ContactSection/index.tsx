@@ -19,14 +19,14 @@ export default function ContactSection() {
               <div className="contact-icon">📞</div>
               <div>
                 <h3>Điện Thoại</h3>
-                <p>0123 456 789</p>
+                <p>08.4567.7881 - 08383.55581</p>
               </div>
             </div>
             <div className="contact-item">
               <div className="contact-icon">✉️</div>
               <div>
                 <h3>Email</h3>
-                <p>info@phongthuyngocsan.vn</p>
+                <p>chanmaysuongmai@gmail.com</p>
               </div>
             </div>
           </div>

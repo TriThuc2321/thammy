@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="footer-social">
             <h4>Kết Nối</h4>
             <div className="social-icons">
-              <a href="#" className="social-icon">
+              <a href="https://www.facebook.com/chanmaysuongmai/" className="social-icon">
                 Facebook
               </a>
               <a href="#" className="social-icon">

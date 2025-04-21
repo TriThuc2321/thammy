@@ -4,22 +4,22 @@ const services = [
   {
     title: "Chân Mày Trăng Non",
     description:
-      "Dịch vụ này kết hợp kỹ thuật phun mày tinh tế với nguyên lý nhân tướng học, giúp xác định dáng mày phù hợp với bản mệnh và năng lượng cá nhân, từ đó hỗ trợ tạo sự thịnh vượng và cân bằng cuộc sống, bạn sẽ có được vẻ đẹp nhẹ nhàng, sắc sảo và một thần thái tựa như ánh sáng trăng – hài hòa tôn lên khí sắc tự nhiên.",
+      "Dáng mày mềm mại, thanh thoát, cân bằng đường nét gương mặt – hài hòa năng lượng và thu hút ánh nhìn một cách tự nhiên.",
   },
   {
     title: "Chân Mày Minh Tướng",
     description:
-      "Tạo hình dáng mày chuẩn xác, sắc nét theo cấu trúc gương mặt và khí sắc riêng từng người. Kết hợp kỹ thuật thẩm mỹ với nguyên tắc nhân tướng học hiện đại, giúp tôn lên thần thái sáng rõ, phong độ và bản lĩnh tự nhiên của phái mạnh.",
+      "Tạo dáng mày mạnh mẽ, sắc nét theo nhân tướng học hiện đại – tôn lên phong thái và khí chất riêng của từng người.",
   },
   {
     title: "Phun Môi Cân Bằng Năng Lượng",
     description:
-      "Chọn màu môi và dáng môi theo sắc diện và ngũ hành cá nhân, giúp cân bằng năng lượng khuôn mặt. Đôi môi không chỉ rạng rỡ mà còn truyền tải cảm xúc tích cực, làm bừng sáng thần sắc một cách tự nhiên.",
+      "Chọn màu và dáng môi phù hợp với ngũ hành – giúp thần sắc rạng rỡ, dung mạo hài hòa và tràn đầy sinh khí.",
   },
   {
     title: "Nốt Ruồi Nhân Tướng",
     description:
-      "Đặt điểm nhấn tinh tế theo vị trí được tư vấn bởi nhân tướng học hiện đại. Mỗi nốt ruồi không chỉ là nét riêng, mà còn là “dấu ấn năng lượng” giúp khuôn mặt trở nên thu hút và hài hòa hơn với khí chất thật sự bên trong.",
+      "Định vị và tạo hình nốt ruồi theo nhân tướng học hiện đại – kích hoạt điểm sáng phong thái, tăng sức hút tự nhiên và may mắn.",
   },
 ];
 export default function ServiceSection() {
