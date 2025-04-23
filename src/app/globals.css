@@ -4,7 +4,7 @@
   --font-ghelisyah: var(--font-ghelisyah);
   --font-hictDesignors: var(--font-hictDesignors);
   --font-waterBrush: var(--font-waterBrush);
-  --font-cardo: var(--font-cardo);
+  --font-noto: var(--font-noto);
 }
 
 @layer base {
@@ -64,7 +64,7 @@ ul {
   color: #8b4513;
   position: relative;
   padding-bottom: 15px;
-  font-family: var(--font-cardo);
+  font-family: var(--font-noto);
 }
 
 .section-title::after {

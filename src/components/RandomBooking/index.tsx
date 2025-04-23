@@ -41,7 +41,7 @@ function RandomBooking() {
           alt={currentBooking.name}
           width={80}
           height={80}
-          className="rounded-lg"
+          className="rounded-lg object-cover max-w-[80px] max-h-[80px]"
         />
         <div className="flex flex-col">
           <h3 className="font-semibold">

@@ -49,7 +49,7 @@ export default function ProductsSection() {
                   alt=""
                 />
               </div>
-              <h3 className="font-cardo">{title}</h3>
+              <h3 className="font-noto">{title}</h3>
               <p>{description}</p>
               <a href="#contact" className="btn-small">
                 Chi Tiết

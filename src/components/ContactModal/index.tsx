@@ -22,7 +22,7 @@ const ContactModal = () => {
         <p className="font-waterBrush mx-auto text-3xl text-center text-[#453a15] font-medium">
           Chân Mày Sương Mai
         </p>
-        <h3 className="text-4xl font-cardo text-center font-bold mb-4 text-[#721c24]">
+        <h3 className="text-4xl font-noto text-center font-bold mb-4 text-[#721c24]">
           Nhận ngay ưu đãi
         </h3>
 

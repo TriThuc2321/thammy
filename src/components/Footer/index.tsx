@@ -6,14 +6,14 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <h3 className="font-cardo font-bold text-lg">Chân Mày Sương Mai</h3>
+            <h3 className="font-noto font-bold text-lg">Chân Mày Sương Mai</h3>
             <p>
               Mỗi nét chạm đều mang theo sự tinh tế và định hình nên một phiên
               bản đẹp hơn
             </p>
           </div>
           <div className="footer-links">
-            <h4 className="font-cardo font-bold text-lg">Liên Kết Nhanh</h4>
+            <h4 className="font-noto font-bold text-lg">Liên Kết Nhanh</h4>
             <ul>
               <li>
                 <a href="#home">Trang Chủ</a>
@@ -33,7 +33,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="footer-social">
-            <h4 className="font-cardo font-bold text-lg">Kết Nối</h4>
+            <h4 className="font-noto font-bold text-lg">Kết Nối</h4>
             <div className="social-icons">
               <a
                 href="https://www.facebook.com/chanmaysuongmai/"

@@ -18,7 +18,7 @@ export default function HeroSection() {
       <div className="container">
         <div className="hero-wrapper">
           <div className="hero-content">
-            <h2 className="font-cardo">
+            <h2 className="font-noto">
               Chân mày vượng khí – Tướng diện thăng hoa
             </h2>
             <p>
@@ -27,7 +27,7 @@ export default function HeroSection() {
               Sương Mai đo vẽ chuẩn vàng <br></br>
               Tướng dung rạng rỡ – huy hoàng tiền duyên.
             </p>
-            <a href="#contact" className="btn font-cardo font-bold text-white">
+            <a href="#contact" className="btn font-noto font-bold text-white">
               Liên Hệ Ngay
             </a>
           </div>

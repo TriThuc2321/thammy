@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Water_Brush, Cardo } from "next/font/google";
+import { Geist, Geist_Mono, Water_Brush, Noto_Serif } from "next/font/google";
 import "./globals.css";
 import { Footer, Header } from "@/components";
 import localFont from "next/font/local";
@@ -22,16 +22,16 @@ const hictDesignorsFont = localFont({
 
 const waterBrushFont = Water_Brush({
   weight: "400",
-  subsets: ["latin"],
+  subsets: ["latin", "vietnamese"],
   display: "swap",
   variable: "--font-waterBrush",
 });
 
-const cardoFont = Cardo({
+const notoFont = Noto_Serif({
   weight: "400",
-  subsets: ["latin"],
+  subsets: ["latin", "vietnamese"],
   display: "swap",
-  variable: "--font-cardo",
+  variable: "--font-noto",
 });
 
 export const metadata: Metadata = {
@@ -60,7 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${waterBrushFont.variable} ${hictDesignorsFont.variable} ${cardoFont.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${waterBrushFont.variable} ${hictDesignorsFont.variable} ${notoFont.variable} antialiased`}
       >
         <Header />
         {children}

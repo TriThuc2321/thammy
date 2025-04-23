@@ -14,7 +14,7 @@ export default function Header() {
           </h1>
         </div>
         <nav>
-          <ul className="font-cardo">
+          <ul className="font-noto">
             <li>
               <Link className="text-xl" href="#home">
                 Trang Chủ

@@ -30,12 +30,12 @@ export default function ServiceSection() {
           Chân Mày Sương Mai
         </p>
 
-        <h2 className="section-title font-cardo">Dịch Vụ Của Chúng Tôi</h2>
+        <h2 className="section-title font-noto">Dịch Vụ Của Chúng Tôi</h2>
 
         <div className="service-grid">
           {services.map(({ title, description }) => (
             <div className="service-card" key={title}>
-              <h3 className="font-cardo">{title}</h3>
+              <h3 className="font-noto">{title}</h3>
               <p className="text-justify">{description}</p>
             </div>
           ))}
