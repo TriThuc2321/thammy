@@ -16,29 +16,19 @@ export default function Header() {
         <nav>
           <ul className="font-noto">
             <li>
-              <Link className="text-xl" href="#home">
-                Trang Chủ
-              </Link>
+              <Link href="#home">Trang Chủ</Link>
             </li>
             <li>
-              <Link className="text-xl" href="#about">
-                Giới Thiệu
-              </Link>
+              <Link href="#about">Giới Thiệu</Link>
             </li>
             <li>
-              <Link className="text-xl" href="#services">
-                Dịch Vụ
-              </Link>
+              <Link href="#services">Dịch Vụ</Link>
             </li>
             <li>
-              <Link className="text-xl" href="#products">
-                Sản Phẩm
-              </Link>
+              <Link href="#products">Sản Phẩm</Link>
             </li>
             <li>
-              <Link className="text-xl" href="#contact">
-                Liên Hệ
-              </Link>
+              <Link href="#contact">Liên Hệ</Link>
             </li>
           </ul>
         </nav>

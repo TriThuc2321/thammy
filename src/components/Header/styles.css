@@ -67,4 +67,12 @@ nav ul li a:hover::after {
   nav ul li {
     margin: 0 10px;
   }
+
+  a {
+    font-size: 14px;
+  }
+
+  header .container {
+    padding: 15px 10px;
+  }
 }
