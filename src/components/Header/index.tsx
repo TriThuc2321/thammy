@@ -14,7 +14,7 @@ export default function Header() {
           </h1>
         </div>
         <nav>
-          <ul className="font-noto">
+          <ul className="font-waterBrush">
             <li>
               <Link href="#home">Trang Chủ</Link>
             </li>
