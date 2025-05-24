@@ -75,7 +75,7 @@ export const TESTIMONIAL_DATA = [
     name: "Linh Nguyễn",
     comment:
       "Dịch vụ phun mày Trăng Non tại Sương Mai thật sự đã thay đổi diện mạo của tôi. Không chỉ đẹp về mặt thẩm mỹ mà còn giúp tôi cảm thấy tự tin hơn rất nhiều. Cách tư vấn theo nhân tướng học rất độc đáo và hiệu quả!",
-    time: "2 ngày trước",
+    time: "10 phút trước",
     likes: 12,
     replies: [
       {
@@ -84,7 +84,7 @@ export const TESTIMONIAL_DATA = [
         name: "Chân mày Sương Mai",
         comment:
           "Cảm ơn chị đã tin tưởng và sử dụng dịch vụ của chúng tôi. Rất vui khi biết chị hài lòng với kết quả!",
-        time: "1 ngày trước",
+        time: "10 phút trước",
         likes: 3,
       },
     ],
@@ -95,7 +95,7 @@ export const TESTIMONIAL_DATA = [
     name: "Hoàng Hoa",
     comment:
       "Phun môi cân bằng năng lượng là một trải nghiệm tuyệt vời. Màu môi được chọn rất hợp với tông da và khí chất của tôi. Sau 3 tháng, môi vẫn giữ màu đẹp tự nhiên và tôi nhận được rất nhiều lời khen.",
-    time: "1 tuần trước",
+    time: "15 phút trước",
     likes: 8,
     replies: [],
   },
@@ -105,7 +105,7 @@ export const TESTIMONIAL_DATA = [
     name: "Hoàng Văn Minh",
     comment:
       "Là nam giới, tôi rất hài lòng với dịch vụ Chân Mày Minh Tướng. Dáng mày được thiết kế vừa nam tính vừa phù hợp với khuôn mặt. Đặc biệt ấn tượng với cách tư vấn chuyên nghiệp dựa trên nhân tướng học.",
-    time: "2 tuần trước",
+    time: "1 ngày trước",
     likes: 15,
     replies: [
       {
@@ -114,7 +114,7 @@ export const TESTIMONIAL_DATA = [
         name: "Chân mày Sương Mai",
         comment:
           "Cảm ơn anh đã tin tưởng và sử dụng dịch vụ của chúng tôi. Rất vui khi được phục vụ khách hàng nam giới!",
-        time: "2 tuần trước",
+        time: "1 ngày trước",
         likes: 2,
       },
     ],
