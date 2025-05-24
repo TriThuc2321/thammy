@@ -6,7 +6,7 @@ import {
   ProductsSection,
   RandomBooking,
   ServiceSection,
-  TestimonialsSection,
+  CommentsSection,
 } from "@/components";
 
 export default function Home() {
@@ -16,9 +16,10 @@ export default function Home() {
       <AboutSection />
       <ServiceSection />
       <ProductsSection />
-      <TestimonialsSection />
       <ContactSection />
       <ContactModal />
+      <CommentsSection />
+
       <RandomBooking />
     </>
   );

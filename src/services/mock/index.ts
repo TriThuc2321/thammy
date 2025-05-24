@@ -6,6 +6,8 @@ import kimLan from "@/assets/images/random/kim_lan.webp";
 import linhChi from "@/assets/images/random/linh_chi.webp";
 import linhNguyen from "@/assets/images/random/linh_nguyen.webp";
 import minhHa from "@/assets/images/random/minh_ha.webp";
+import admin from "@/assets/images/about.webp";
+import chanmaynam from "@/assets/images/chanmaynam.webp";
 
 export const RANDOM_BOOKING = [
   {
@@ -63,5 +65,58 @@ export const RANDOM_BOOKING = [
     service: "Chân Mày Trăng Non",
     time: "4 phút trước",
     avatar: minhHa,
+  },
+];
+
+export const TESTIMONIAL_DATA = [
+  {
+    id: 1,
+    avatar: linhNguyen,
+    name: "Linh Nguyễn",
+    comment:
+      "Dịch vụ phun mày Trăng Non tại Sương Mai thật sự đã thay đổi diện mạo của tôi. Không chỉ đẹp về mặt thẩm mỹ mà còn giúp tôi cảm thấy tự tin hơn rất nhiều. Cách tư vấn theo nhân tướng học rất độc đáo và hiệu quả!",
+    time: "2 ngày trước",
+    likes: 12,
+    replies: [
+      {
+        id: 101,
+        avatar: admin,
+        name: "Chân mày Sương Mai",
+        comment:
+          "Cảm ơn chị đã tin tưởng và sử dụng dịch vụ của chúng tôi. Rất vui khi biết chị hài lòng với kết quả!",
+        time: "1 ngày trước",
+        likes: 3,
+      },
+    ],
+  },
+  {
+    id: 2,
+    avatar: hoangHoa,
+    name: "Hoàng Hoa",
+    comment:
+      "Phun môi cân bằng năng lượng là một trải nghiệm tuyệt vời. Màu môi được chọn rất hợp với tông da và khí chất của tôi. Sau 3 tháng, môi vẫn giữ màu đẹp tự nhiên và tôi nhận được rất nhiều lời khen.",
+    time: "1 tuần trước",
+    likes: 8,
+    replies: [],
+  },
+  {
+    id: 3,
+    avatar: chanmaynam,
+    name: "Hoàng Văn Minh",
+    comment:
+      "Là nam giới, tôi rất hài lòng với dịch vụ Chân Mày Minh Tướng. Dáng mày được thiết kế vừa nam tính vừa phù hợp với khuôn mặt. Đặc biệt ấn tượng với cách tư vấn chuyên nghiệp dựa trên nhân tướng học.",
+    time: "2 tuần trước",
+    likes: 15,
+    replies: [
+      {
+        id: 301,
+        avatar: admin,
+        name: "Chân mày Sương Mai",
+        comment:
+          "Cảm ơn anh đã tin tưởng và sử dụng dịch vụ của chúng tôi. Rất vui khi được phục vụ khách hàng nam giới!",
+        time: "2 tuần trước",
+        likes: 2,
+      },
+    ],
   },
 ];
