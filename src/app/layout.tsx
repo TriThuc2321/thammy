@@ -50,6 +50,17 @@ export const metadata: Metadata = {
       },
     ],
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  keywords: [
+    "Thẩm mỹ",
+    "Chân mày",
+    "Chân mày sương mai",
+    "Làm đẹp Cần Thơ",
+    "Phong thủy",
+  ],
 };
 
 export default function RootLayout({
