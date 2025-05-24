@@ -3,7 +3,11 @@
 import { FormEvent, useState, useRef } from "react";
 import "./styles.css";
 
-export default function ContactForm() {
+type ContactFormProps = {
+  isModal?: boolean;
+};
+
+export default function ContactForm({ isModal = false }: ContactFormProps) {
   const formRef = useRef<HTMLFormElement>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<{
@@ -56,30 +60,55 @@ export default function ContactForm() {
 
   return (
     <div className="contact-form">
-      <form ref={formRef} onSubmit={handleSubmit} method="POST">
+      <form
+        className="flex flex-col"
+        ref={formRef}
+        onSubmit={handleSubmit}
+        method="POST"
+      >
         <div className="form-group">
-          <label htmlFor="name">Họ và Tên</label>
+          <label htmlFor="name" className={`${isModal ? "text-white" : ""}`}>
+            Họ và Tên
+          </label>
           <input type="text" id="name" name="name" required />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email" className={`${isModal ? "text-white" : ""}`}>
+            Email
+          </label>
           <input type="email" id="email" name="email" required />
         </div>
         <div className="form-group">
-          <label htmlFor="phone">Số Điện Thoại</label>
+          <label htmlFor="phone" className={`${isModal ? "text-white" : ""}`}>
+            Số Điện Thoại
+          </label>
           <input type="tel" id="phone" name="phone" />
         </div>
-        <div className="form-group">
-          <label htmlFor="message">Tin Nhắn</label>
-          <textarea id="message" name="message" rows={3} required></textarea>
-        </div>
+        {!isModal && (
+          <div className="form-group">
+            <label
+              htmlFor="message"
+              className={`${isModal ? "text-white" : ""}`}
+            >
+              Tin Nhắn
+            </label>
+            <textarea id="message" name="message" rows={3} required></textarea>
+          </div>
+        )}
+
         {submitStatus.message && (
           <div className={`status-message ${submitStatus.type}`}>
             {submitStatus.message}
           </div>
         )}
-        <button type="submit" className="btn" disabled={isSubmitting}>
-          {isSubmitting ? "Đang gửi..." : "Gửi Tin Nhắn"}
+        <button
+          type="submit"
+          className={`btn ${
+            isModal ? "!bg-[#f16a6a] animate-zoom  w-[260px] mx-auto mt-4 " : ""
+          }`}
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? "Đang gửi..." : "Đặt Lịch Ngay"}
         </button>
       </form>
     </div>

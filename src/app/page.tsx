@@ -16,10 +16,9 @@ export default function Home() {
       <AboutSection />
       <ServiceSection />
       <ProductsSection />
+      <CommentsSection />
       <ContactSection />
       <ContactModal />
-      <CommentsSection />
-
       <RandomBooking />
     </>
   );
