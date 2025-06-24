@@ -1,5 +1,27 @@
+import Image from "next/image";
 import "./styles.css";
 
+import phoneIcon from "@/assets/images/phone.webp";
+import zaloIcon from "@/assets/images/zalo.webp";
+import messagerIcon from "@/assets/images/messager.webp";
+
+const actions = [
+  {
+    title: "Call Hotline",
+    iconSrc: phoneIcon,
+    href: "tel:0838355581",
+  },
+  {
+    title: "Zalo",
+    iconSrc: zaloIcon,
+    href: "https://zalo.me/3322738468713429287",
+  },
+  {
+    title: "Facebook",
+    iconSrc: messagerIcon,
+    href: "https://www.facebook.com/chanmaysuongmai/",
+  },
+];
 export default function Footer() {
   return (
     <footer>
@@ -53,6 +75,25 @@ export default function Footer() {
         <div className="copyright">
           <p>&copy; 2025 Chân Mày Sương Mai. Tất cả quyền được bảo lưu.</p>
         </div>
+      </div>
+
+      <div className="fixed flex flex-col bottom-4 gap-4 left-4">
+        {actions.map((action) => (
+          <a
+            className="animate-zoom"
+            href={action.href}
+            target="_blank"
+            key={action.title}
+          >
+            <Image
+              key={action.title}
+              src={action.iconSrc}
+              alt={action.title}
+              width={40}
+              height={40}
+            />
+          </a>
+        ))}
       </div>
     </footer>
   );
