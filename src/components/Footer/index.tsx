@@ -3,7 +3,7 @@ import "./styles.css";
 
 import phoneIcon from "@/assets/images/phone.webp";
 import zaloIcon from "@/assets/images/zalo.webp";
-import messagerIcon from "@/assets/images/messager.webp";
+import messengerIcon from "@/assets/images/messenger.webp";
 
 const actions = [
   {
@@ -17,9 +17,9 @@ const actions = [
     href: "https://zalo.me/3322738468713429287",
   },
   {
-    title: "Facebook",
-    iconSrc: messagerIcon,
-    href: "https://www.facebook.com/chanmaysuongmai/",
+    title: "Messenger",
+    iconSrc: messengerIcon,
+    href: "https://m.me/668221206364627",
   },
 ];
 export default function Footer() {
