@@ -1,19 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Water_Brush, Noto_Serif } from "next/font/google";
+import { Water_Brush, Noto_Serif } from "next/font/google";
 import "./globals.css";
 import { Footer, Header } from "@/components";
 import localFont from "next/font/local";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
+// Optimize font loading with preload and display swap
 const hictDesignorsFont = localFont({
   src: "./fonts/hictDesignors.ttf",
   display: "swap",
@@ -28,7 +19,7 @@ const waterBrushFont = Water_Brush({
 });
 
 const notoFont = Noto_Serif({
-  weight: "400",
+  weight: ["400", "700"],
   subsets: ["latin", "vietnamese"],
   display: "swap",
   variable: "--font-noto",
@@ -37,11 +28,11 @@ const notoFont = Noto_Serif({
 export const metadata: Metadata = {
   title: "Chân mày sương mai",
   description:
-    "Toạ lạc tại trung tâm Quận Ninh Kiều, TP Cần Thơ, chúng tôi tin rằng mỗi đường nét trên gương mặt không chỉ phản ánh cá tính, mà còn là chiếc “bản đồ năng lượng” riêng biệt của từng người. Lấy  cảm hứng từ nhân tướng học hiện đại và tinh hoa thẩm mỹ phương  Đông, các dịch vụ tại đây được thiết kế để tái cân bằng diện mạo,  nâng tầm thần thái và giúp bạn tỏa sáng một cách tự nhiên, đầy  cuốn hút.",
+    "Toạ lạc tại trung tâm Quận Ninh Kiều, TP Cần Thơ, chúng tôi tin rằng mỗi đường nét trên gương mặt không chỉ phản ánh cá tính, mà còn là chiếc bản đồ năng lượng riêng biệt của từng người. Lấy cảm hứng từ nhân tướng học hiện đại và tinh hoa thẩm mỹ phương Đông, các dịch vụ tại đây được thiết kế để tái cân bằng diện mạo, nâng tầm thần thái và giúp bạn tỏa sáng một cách tự nhiên, đầy cuốn hút.",
   openGraph: {
     title: "Chân mày sương mai",
     description:
-      "Toạ lạc tại trung tâm Quận Ninh Kiều, TP Cần Thơ, chúng tôi tin rằng mỗi đường nét trên gương mặt không chỉ phản ánh cá tính, mà còn là chiếc “bản đồ năng lượng” riêng biệt của từng người. Lấy  cảm hứng từ nhân tướng học hiện đại và tinh hoa thẩm mỹ phương  Đông, các dịch vụ tại đây được thiết kế để tái cân bằng diện mạo,  nâng tầm thần thái và giúp bạn tỏa sáng một cách tự nhiên, đầy  cuốn hút.",
+      "Toạ lạc tại trung tâm Quận Ninh Kiều, TP Cần Thơ, chúng tôi tin rằng mỗi đường nét trên gương mặt không chỉ phản ánh cá tính, mà còn là chiếc bản đồ năng lượng riêng biệt của từng người. Lấy cảm hứng từ nhân tướng học hiện đại và tinh hoa thẩm mỹ phương Đông, các dịch vụ tại đây được thiết kế để tái cân bằng diện mạo, nâng tầm thần thái và giúp bạn tỏa sáng một cách tự nhiên, đầy cuốn hút.",
     images: [
       {
         url: "https://i.imgur.com/Z7NzQwU.png",
@@ -69,9 +60,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="vi">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${waterBrushFont.variable} ${hictDesignorsFont.variable} ${notoFont.variable} antialiased`}
+        className={`${waterBrushFont.variable} ${hictDesignorsFont.variable} ${notoFont.variable} antialiased font-sans`}
       >
         <Header />
         {children}
