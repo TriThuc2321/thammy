@@ -1,24 +1,20 @@
 import Image from "next/image";
 import "./styles.css";
 
-import phoneIcon from "@/assets/images/phone.webp";
-import zaloIcon from "@/assets/images/zalo.webp";
-import messengerIcon from "@/assets/images/messenger.webp";
-
 const actions = [
   {
     title: "Call Hotline",
-    iconSrc: phoneIcon,
+    iconSrc: "/images/phone.webp",
     href: "tel:0838355581",
   },
   {
     title: "Zalo",
-    iconSrc: zaloIcon,
+    iconSrc: "/images/zalo.webp",
     href: "https://zalo.me/3322738468713429287",
   },
   {
     title: "Messenger",
-    iconSrc: messengerIcon,
+    iconSrc: "/images/messenger.webp",
     href: "https://m.me/668221206364627",
   },
 ];
