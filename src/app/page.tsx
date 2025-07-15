@@ -7,6 +7,7 @@ import {
   RandomBooking,
   ServiceSection,
   CommentsSection,
+  ProductsCarousel,
 } from "@/components";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <AboutSection />
       <ServiceSection />
       <ProductsSection />
+      <ProductsCarousel />
       <CommentsSection />
       <ContactSection />
       <ContactModal />
