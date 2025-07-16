@@ -1,10 +1,5 @@
 @import "swiper/swiper-bundle.css";
 
-.gallery-section {
-  margin-top: 60px;
-  padding: 40px 0;
-  background-color: #f9f6f2;
-}
 .gallery-title {
   text-align: center;
   font-family: "Noto Serif", serif;
@@ -12,14 +7,17 @@
   font-size: 2rem;
   margin-bottom: 30px;
 }
+
 .swiper-container {
   padding: 0 40px;
   position: relative;
 }
+
 .swiper-slide {
   display: flex;
   justify-content: center;
 }
+
 .gallery-image {
   width: 300px;
   border-radius: 16px;
@@ -27,9 +25,11 @@
   transition: transform 0.3s ease;
   cursor: pointer;
 }
+
 .gallery-image:hover {
   transform: scale(1.05);
 }
+
 .lightbox {
   position: fixed;
   top: 0;
@@ -42,16 +42,73 @@
   align-items: center;
   z-index: 1000;
 }
-.lightbox img {
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: 12px;
-}
+
 .lightbox-close {
   position: absolute;
+  z-index: 10;
   top: 20px;
   right: 30px;
   font-size: 2rem;
   color: white;
   cursor: pointer;
+}
+
+.carousel-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.carousel-nav-btn.left-0 {
+  left: -24px;
+}
+
+.carousel-nav-btn.right-0 {
+  right: -24px;
+}
+
+.carousel-nav-btn:hover {
+  background: #d4af37;
+  color: white;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  transform: translateY(-50%) scale(1.08);
+}
+
+.carousel-nav-btn svg {
+  display: block;
+  stroke: #8b4513;
+}
+
+.carousel-nav-btn:hover svg {
+  stroke: white;
+}
+
+@media (max-width: 768px) {
+  .carousel-nav-btn {
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  }
+  .carousel-nav-btn.left-0 {
+    left: -16px;
+  }
+  .carousel-nav-btn.right-0 {
+    right: -16px;
+  }
+  .carousel-nav-btn svg {
+    width: 22px;
+    height: 22px;
+  }
 }
