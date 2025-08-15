@@ -6,7 +6,7 @@ import kimLan from "@/assets/images/random/kim_lan.webp";
 import linhChi from "@/assets/images/random/linh_chi.webp";
 import linhNguyen from "@/assets/images/random/linh_nguyen.webp";
 import minhHa from "@/assets/images/random/minh_ha.webp";
-import admin from "@/assets/images/about.webp";
+import admin from "@/assets/images/admin.webp";
 import chanmaynam from "@/assets/images/chanmaynam.webp";
 
 export const RANDOM_BOOKING = [

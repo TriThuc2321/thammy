@@ -6,7 +6,7 @@ const services = [
     title: "Chân Mày Trăng Non",
     description:
       "Dáng mày mềm mại, thanh thoát, cân bằng đường nét gương mặt – hài hòa năng lượng và thu hút ánh nhìn một cách tự nhiên.",
-    image: "/images/services/ChanMayTrangNon.webp",
+    image: "/images/services/ChanMayTrangNon.png",
   },
   {
     title: "Chân Mày Minh Tướng",
