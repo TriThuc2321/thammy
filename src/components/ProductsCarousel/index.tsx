@@ -10,8 +10,8 @@ import "./styles.css";
 import Image from "next/image";
 
 const images = Array.from(
-  { length: 31 },
-  (_, index) => `/images/carousel/${index + 1}.png`
+  { length: 26 },
+  (_, index) => `/images/carousel/${index + 5}.png`
 );
 images.splice(29, 2);
 

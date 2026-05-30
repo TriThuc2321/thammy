@@ -9,6 +9,7 @@ import {
   CommentsSection,
   ProductsCarousel,
 } from "@/components";
+import ArtistSection from "@/components/ArtistSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ServiceSection />
+      <ArtistSection />
       <ProductsSection />
       <ProductsCarousel />
       <CommentsSection />
